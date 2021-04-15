@@ -1,0 +1,19 @@
+﻿.title {
+  text-align: start;
+  font-size: 80px;
+  margin: 15px;
+}
+
+.subheading {
+  color: var(--bg-dark);
+  font-size: 40px;
+  margin-top: 20px;
+  width: 100%;
+  flex: auto;
+}
+
+.select {
+  color: var(--text-secondary);
+  font-size: 28px;
+  text-align: center;
+}
