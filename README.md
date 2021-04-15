@@ -1,8 +1,7 @@
 # Next JS webApp using Typescript (.tsx)
 
 Designed and coded by: **Brendan Laney**
-
-<hr>
+</br>
 
 ## Last updated: 4/15/2021
 
