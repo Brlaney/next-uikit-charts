@@ -1,4 +1,4 @@
-import Beam from '../../components/Beam'
+import Beam from '../../components/MatrixComponents/Beam'
 
 export default function Beams () {
   return (

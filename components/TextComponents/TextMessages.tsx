@@ -364,10 +364,10 @@ const TextMessages = () => {
         options={{
           scales: {
             xAxes: [{
-                type: 'time',
-                time: {
-                    unit: 'month'
-                }
+              type: 'time',
+              time: {
+                unit: 'month'
+              }
             }]
           },
           layout: {
@@ -382,12 +382,12 @@ const TextMessages = () => {
               right: 20,
               top: 20,
               bottom: 30
-            },
-          },
+            }
+          }
         }}
       />
     </div>
   )
 }
 
-export default TextMessages;
+export default TextMessages

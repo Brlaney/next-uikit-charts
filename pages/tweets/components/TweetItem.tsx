@@ -1,4 +1,4 @@
-// import Link from 'next/link'
+import Link from 'next/link'
 
 const TweetItem = ({ tweet }) => {
   return (
@@ -6,7 +6,9 @@ const TweetItem = ({ tweet }) => {
       <div className='uk-flex uk-flex-column uk-flex-center uk-width-1-2@s uk-padding-small uk-margin' style={{ border: '1px solid #eaeaea' }}>
 
         <h5 className='uk-heading-small' style={{ marginBottom: '0', paddingBottom: '0' }}>
-          {tweet.username}
+          <Link href='#'>
+            <a target='_blank' rel='noopener noreferrer'>{tweet.username}</a>
+          </Link>
         </h5>
         <h6 className='uk-text-lead' style={{ marginTop: '0', paddingTop: '0' }}>
           {tweet.name}

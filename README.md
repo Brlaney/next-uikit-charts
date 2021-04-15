@@ -1,10 +1,10 @@
 # Next JS webApp using Typescript (.tsx)
 
-### Designed and coded by: Brendan Laney
+Designed and coded by: **Brendan Laney**
 
 <hr>
 
-### Last updated: 3/9/2021
+## Last updated: 4/15/2021
 
 </br>
 
@@ -12,16 +12,40 @@
 
 * _app
 * document
-* index
+* index page (home)
+* about page
 * api
-    * api\tweets
-        * [id]
-        * index
+  * api\tweets
+    * [id]
+    * index
+* icons
+  * index
+* matrix
+  * index
+  * trusses
+  * beams
+  * frames
+* texts
+  * index
+  * stats
+  * comparison
+* tweets
+  * index
+  * components
+    * tweetList
+    * tweetItem
 
 ## Components
 
-* Footer
-* Header
 * Layout
 * Meta
-* TweetList
+* Navbar
+* UiKit
+* MatrixComponents
+  * Truss
+  * Beam
+  * Frame
+  * ChartTest
+  * TextMessages
+  * TextPie
+  * TextsByAuthor

@@ -1,4 +1,4 @@
-import Truss from '../../components/Truss'
+import Truss from '../../components/MatrixComponents/Truss'
 
 export default function truss () {
   return (

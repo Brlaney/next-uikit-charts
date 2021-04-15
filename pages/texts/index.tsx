@@ -1,12 +1,41 @@
-import TextMessages from '../../components/TextMessages'
+import Link from 'next/link'
+import styles from '../../assets/css/Texts.module.css'
 
 export default function Texts () {
   return (
     <>
-      <div className='uk-container-large' style={{ margin: '20px' }}>
-        <h1>Text messages</h1>
-        <div className='uk-heading-divider uk-margin-large-bottom'></div>
-        <TextMessages />
+      <div className='uk-container-large uk-height-large'>
+        <div>
+          <h1 className={styles.title}>Text message data charts</h1>
+        </div>
+        <div className='uk-heading-divider uk-margin-bottom' />
+
+        <div className='uk-flex uk-flex-right uk-flex-middle'>
+          <h3 className={styles.subheading}>Select a chart</h3>
+        </div>
+
+        <div className='uk-margin-left uk-width-1-1'>
+          <div className='uk-margin-small'>
+            <Link href='/texts/comparison'>
+              <a className={styles.select}>Comparison timeline</a>
+            </Link>
+          </div>
+        </div>
+        <div className='uk-margin-left uk-width-1-1'>
+          <div className='uk-margin-small'>
+            <Link href='/texts/messages'>
+              <a className={styles.select}>Combined timeline</a>
+            </Link>
+          </div>
+        </div>
+
+        <div className='uk-margin-left uk-width-1-1'>
+          <div className='uk-margin-small'>
+            <Link href='/texts/stats'>
+              <a className={styles.select}>Pie chart</a>
+            </Link>
+          </div>
+        </div>
       </div>
     </>
   )

@@ -1,5 +1,5 @@
-import Link from 'next/link'
 import styles from '../assets/css/Home.module.css'
+import Link from 'next/link'
 
 const Navbar = () => {
   return (
@@ -8,17 +8,88 @@ const Navbar = () => {
 
         {/* Left-end of navbar */}
         <div className='uk-navbar-left'>
-          <span className='uk-margin-left' uk-icon='icon: expand; ratio: 1.75' style={{ color: 'var(--secondary-color' }} />
           <a className='uk-active uk-navbar-item uk-logo uk-margin-small-left' href='/' style={{ paddingLeft: 0, fontSize: '32px', color: '#eaeaea' }}>
-            Brendan Laney Design
+            BL designs
           </a>
 
           <ul className='uk-navbar-nav'>
 
+            {/* Matrix dropdown menu */}
             <li className='uk-*'>
-              <Link href='/matrix'>
-                <a className={styles.navlink}>Matrix Stiffness</a>
-              </Link>
+              <a href='#'>Matrix</a>
+              <div className='uk-navbar-dropdown'>
+                <ul className='uk-nav uk-navbar-dropdown-nav'>
+
+                  {/* Dropdown link 1 */}
+                  <li className='uk-*'>
+                    <Link href='/matrix'>
+                      <a className='uk-text-lead' style={{ color: 'var(--bg-dark)' }}>Matrix</a>
+                    </Link>
+                  </li>
+
+                  <li className='uk-nav-divider' />
+
+                  {/* Dropdown link 2 */}
+                  <li className='uk-*'>
+                    <Link href='/matrix/trusses'>
+                      <a className='uk-text-lead' style={{ color: 'var(--bg-dark)' }}>Trusses</a>
+                    </Link>
+                  </li>
+
+                  {/* Dropdown link 3 */}
+                  <li className='uk-*'>
+                    <Link href='/matrix/beams'>
+                      <a className='uk-text-lead' style={{ color: 'var(--bg-dark)' }}>Beams</a>
+                    </Link>
+                  </li>
+
+                  {/* Dropdown link 4 */}
+                  <li className='uk-*'>
+                    <Link href='/matrix/frames'>
+                      <a className='uk-text-lead' style={{ color: 'var(--bg-dark)' }}>Frames</a>
+                    </Link>
+                  </li>
+                </ul>
+              </div>
+            </li>
+
+            {/* Texts dropdown menu */}
+            <li className='uk-*'>
+              <a href='#'>Texts</a>
+              <div className='uk-navbar-dropdown'>
+                <ul className='uk-nav uk-navbar-dropdown-nav'>
+
+                  {/* Dropdown link 1 */}
+                  <li className='uk-*'>
+                    <Link href='/texts'>
+                      <a className='uk-text-lead' style={{ color: 'var(--bg-dark)' }}>Texts</a>
+                    </Link>
+                  </li>
+
+                  <li className='uk-nav-divider' />
+
+                  {/* Dropdown link 2 */}
+                  <li className='uk-*'>
+                    <Link href='/texts/comparison'>
+                      <a className='uk-text-lead' style={{ color: 'var(--bg-dark)' }}>Comparison timeline</a>
+                    </Link>
+                  </li>
+
+                  {/* Dropdown link 3 */}
+                  <li className='uk-*'>
+                    <Link href='/texts/messages'>
+                      <a className='uk-text-lead' style={{ color: 'var(--bg-dark)' }}>Combined timeline</a>
+                    </Link>
+                  </li>
+
+                  {/* Dropdown link 4 */}
+                  <li className='uk-*'>
+                    <Link href='/texts/stats'>
+                      <a className='uk-text-lead' style={{ color: 'var(--bg-dark)' }}>Pie charts</a>
+                    </Link>
+                  </li>
+                </ul>
+              </div>
             </li>
 
             <li className='uk-*'>
@@ -33,39 +104,9 @@ const Navbar = () => {
               </Link>
             </li>
 
-            <li className='uk-*'>
-              <a href='#'>Texts</a>
-              <div className='uk-navbar-dropdown'>
-                <ul className='uk-nav uk-navbar-dropdown-nav'>
-
-                  {/* Dropdown link 1 */}
-                  <li className='uk-*'>
-                    <Link href='/texts'>
-                      <a className='uk-text-lead' style={{ color: 'var(--bg-dark)' }}>Overall</a>
-                    </Link>
-                  </li>
-                  
-                  {/* Dropdown link 2 */}
-                  <li className='uk-*'>
-                    <Link href='/texts/comparison'>
-                      <a className='uk-text-lead' style={{ color: 'var(--bg-dark)' }}>Split</a>
-                    </Link>
-                  </li>
-
-                  {/* Dropdown link 3 */}
-                  <li className='uk-*'>
-                    <Link href='/texts/stats'>
-                      <a className='uk-text-lead' style={{ color: 'var(--bg-dark)' }}>Stats</a>
-                    </Link>
-                  </li>
-
-                </ul>
-
-              </div>
-            </li>
           </ul>
         </div>
-  
+
         {/* Right-end of Navbar */}
         <div className='uk-navbar-right'>
           <ul className='uk-navbar-nav'>
