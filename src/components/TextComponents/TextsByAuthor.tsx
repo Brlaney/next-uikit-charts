@@ -1,8 +1,8 @@
-import { Bar, defaults } from 'react-chartjs-2'
+import { Bar } from 'react-chartjs-2'
 
-defaults.global.legend.display = true
-defaults.global.defaultFontFamily = 'Sans-serif'
-defaults.global.legend.position = 'bottom'
+// defaults.global.legend.display = true
+// defaults.global.defaultFontFamily = 'Sans-serif'
+// defaults.global.legend.position = 'bottom'
 
 const TextsByAuthor = () => {
   return (

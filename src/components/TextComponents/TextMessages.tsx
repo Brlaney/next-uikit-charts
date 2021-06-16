@@ -1,7 +1,7 @@
-import { Bar, defaults } from 'react-chartjs-2'
+import { Bar } from 'react-chartjs-2'
 
-defaults.global.legend.display = false
-defaults.global.defaultFontFamily = 'Sans-serif'
+// defaults.global.legend.display = false
+// defaults.global.defaultFontFamily = 'Sans-serif'
 
 const TextMessages = () => {
   return (

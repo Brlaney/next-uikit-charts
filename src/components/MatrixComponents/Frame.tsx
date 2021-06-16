@@ -1,8 +1,8 @@
-﻿import { Line, defaults } from 'react-chartjs-2'
+﻿import { Line } from 'react-chartjs-2'
 
-defaults.global.tooltips.enabled = false
-defaults.global.legend.position = 'bottom'
-defaults.global.hover.animationDuration = 750
+// defaults.global.tooltips.enabled = false
+// defaults.global.legend.position = 'bottom'
+// defaults.global.hover.animationDuration = 750
 
 const Frame = () => {
   return (

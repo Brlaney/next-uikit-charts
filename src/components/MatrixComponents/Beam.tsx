@@ -1,7 +1,7 @@
-import { Scatter, defaults } from 'react-chartjs-2'
+import { Scatter } from 'react-chartjs-2'
 
-defaults.global.tooltips.enabled = false
-defaults.global.legend.display = false
+// defaults.global.tooltips.enabled = false
+// defaults.global.legend.display = false
 
 const Beam = () => {
   return (
