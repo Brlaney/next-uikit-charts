@@ -1,4 +1,4 @@
-import TextMessages from '../../components/TextComponents/TextMessages'
+import TextMessages from './components/TextMessages'
 
 export default function Messages () {
   return (

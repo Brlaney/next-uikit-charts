@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import styles from '../../assets/css/Texts.module.css'
+import styles from '@/assets/css/Texts.module.css'
 
 export default function Texts () {
   return (

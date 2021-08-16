@@ -1,4 +1,4 @@
-import TextPie from '../../components/TextPie'
+import TextPie from './components/TextPie'
 
 export default function Comparison () {
   return (

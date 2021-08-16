@@ -1,4 +1,4 @@
-import { server } from '../../config'
+import { server } from '@/lib/config'
 import TweetList from './components/TweetList'
 
 export default function Tweet ({ tweets }) {

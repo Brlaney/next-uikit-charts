@@ -1,4 +1,5 @@
-﻿import Frame from '../../components/MatrixComponents/Frame'
+﻿import Frame from './components/Frame'
+
 
 export default function Frames () {
   return (

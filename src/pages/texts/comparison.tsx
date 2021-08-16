@@ -1,5 +1,6 @@
-import TextsByAuthor from '../../components/TextComponents/TextsByAuthor'
+import TextsByAuthor from './components/TextsByAuthor'
 import Link from 'next/link'
+
 
 export default function Comparison () {
   return (
@@ -8,7 +9,7 @@ export default function Comparison () {
         <h1>Comparing texts</h1>
         <div className='uk-float-right'>
           <Link href='/texts'>
-            <a className='uk-button-default'>go back</a>
+            <a className='uk-button-default'>back</a>
           </Link>
         </div>
         <div className='uk-heading-divider uk-margin-large-bottom' />
