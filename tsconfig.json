@@ -24,8 +24,9 @@
     "src",
     "next-env.d.ts",
     "**/*.ts",
-    "**/*.tsx"
-  ],
+    "**/*.tsx",
+    "public/js"  
+],
   "exclude": [
     "dist",
     ".next",

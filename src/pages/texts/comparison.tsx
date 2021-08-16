@@ -7,11 +7,9 @@ export default function Comparison () {
     <>
       <div className='uk-container-large' style={{ margin: '20px' }}>
         <h1>Comparing texts</h1>
-        <div className='uk-float-right'>
-          <Link href='/texts'>
-            <a className='uk-button-default'>back</a>
-          </Link>
-        </div>
+        <Link href='/texts'>
+          <button className='uk-button-default'>back</button>
+        </Link>
         <div className='uk-heading-divider uk-margin-large-bottom' />
         <TextsByAuthor />
       </div>

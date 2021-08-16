@@ -62,7 +62,7 @@ const Navbar = () => {
                   {/* Dropdown link 1 */}
                   <li className='uk-*'>
                     <Link href='/texts'>
-                      <a className='uk-text-lead' style={{ color: 'var(--bg-dark)' }}>Texts</a>
+                      <a className='uk-text-lead' style={{ color: 'var(--bg-dark)' }}>Charts</a>
                     </Link>
                   </li>
 
@@ -71,14 +71,14 @@ const Navbar = () => {
                   {/* Dropdown link 2 */}
                   <li className='uk-*'>
                     <Link href='/texts/comparison'>
-                      <a className='uk-text-lead' style={{ color: 'var(--bg-dark)' }}>Comparison timeline</a>
+                      <a className='uk-text-lead' style={{ color: 'var(--bg-dark)' }}>Comparison</a>
                     </Link>
                   </li>
 
                   {/* Dropdown link 3 */}
                   <li className='uk-*'>
                     <Link href='/texts/messages'>
-                      <a className='uk-text-lead' style={{ color: 'var(--bg-dark)' }}>Combined timeline</a>
+                      <a className='uk-text-lead' style={{ color: 'var(--bg-dark)' }}>Combined</a>
                     </Link>
                   </li>
 
