@@ -13,7 +13,7 @@ export default function Home () {
         </h3>
       </div>
       <div className='uk-text-center'>
-        <h1 className='uk-heading-small' style={{ color: '$secondary' }}>
+        <h1 id='header' className='uk-heading-small'>
           <span className='uk-text-lead'>designed by </span>Brendan Laney
         </h1>
       </div>

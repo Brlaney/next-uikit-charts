@@ -1,21 +1,39 @@
 ﻿@import './theme/theme';
 
-.title {
-  text-align: start;
-  font-size: 80px;
-  margin: 15px;
-}
+uk-container-large {
+  div {
+    .title {
+      text-align: start;
+      font-size: 36px;
+      margin: 0;
+    }
+  }
 
-.subheading {
-  color: $bg-d;
-  font-size: 40px;
-  margin-top: 20px;
-  width: 100%;
-  flex: auto;
-}
+  div {
+    .subheading {
+      color: $bg-d;
+      font-size: 24px;
+      text-align: center;
+      width: 100%;
+      flex: auto;
+    }
+  }
 
-.select {
-  color: $text-secondary;
-  font-size: 28px;
-  text-align: center;
+  #container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+
+    .parent {
+
+      .select {
+        color: $text-secondary;
+        font-size: 22px;
+        text-align: center;
+      }
+    }
+
+  }
 }

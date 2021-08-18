@@ -5,7 +5,7 @@ import styles from '@/styles/Matrix.module.scss'
 export default function Matrix () {
   return (
     <>
-      <div className='uk-container-large uk-height-large'>
+      <div className='uk-container-large'>
         <div>
           <h1 className={styles.title}>Matrix Structural Analysis</h1>
         </div>
@@ -15,23 +15,23 @@ export default function Matrix () {
           <h3 className={styles.subheading}>Select a system</h3>
         </div>
 
-        <div className='uk-margin-left uk-width-1-1'>
-          <div className='uk-margin-small'>
+        <div id='container' className='uk-margin-left uk-width-1-1'>
+          <div className={styles.parent}>
             <Link href='/matrix/truss'>
               <a className={styles.select}>Truss</a>
             </Link>
           </div>
         </div>
-        <div className='uk-margin-left uk-width-1-1'>
-          <div className='uk-margin-small'>
+        <div id='container' className='uk-margin-left uk-width-1-1'>
+          <div className={styles.parent}>
             <Link href='/matrix/beams'>
               <a className={styles.select}>Beams</a>
             </Link>
           </div>
         </div>
 
-        <div className='uk-margin-left uk-width-1-1'>
-          <div className='uk-margin-small'>
+        <div id='container' className='uk-margin-left uk-width-1-1'>
+          <div className={styles.parent}>
             <Link href='/matrix/frames'>
               <a className={styles.select}>Frames</a>
             </Link>
