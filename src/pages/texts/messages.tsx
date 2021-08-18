@@ -3,9 +3,9 @@ import TextMessages from './components/TextMessages'
 export default function Messages () {
   return (
     <>
-      <div className='uk-container-large' style={{ margin: '20px' }}>
-        <h1>Comparing texts</h1>
-        <div className='uk-heading-divider uk-margin-large-bottom' />
+      <div id='texts' className='uk-container-large'>
+        <h3>Comparing texts</h3>
+        <div className='uk-heading-divider' />
         <TextMessages />
       </div>
     </>

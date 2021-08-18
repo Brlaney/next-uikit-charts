@@ -4,12 +4,15 @@ import Link from 'next/link'
 const Navbar = () => {
   return (
     <>
-      <nav className='uk-navbar-container' uk-navbar='True' style={{ borderBottom: '1px solid #eaeaea', backgroundColor: 'var(--bg-dark)' }}>
+      <nav id='navbar' className='uk-navbar-container' uk-navbar='True'>
 
         {/* Left-end of navbar */}
-        <div className='uk-navbar-left'>
-          <a className='uk-active uk-navbar-item uk-logo uk-margin-small-left' href='/' style={{ paddingLeft: 0, fontSize: '32px', color: '#eaeaea' }}>
-            BL designs
+        <div id='brand' className='uk-navbar-left'>
+          <a
+            className='uk-navbar-item uk-logo uk-margin-small-left'
+            href='/'
+          >
+            Next UiKit
           </a>
 
           <ul className='uk-navbar-nav'>
@@ -23,7 +26,7 @@ const Navbar = () => {
                   {/* Dropdown link 1 */}
                   <li className='uk-*'>
                     <Link href='/matrix'>
-                      <a className='uk-text-lead' style={{ color: 'var(--bg-dark)' }}>Matrix</a>
+                      <a className='uk-text-lead' id='link'>Matrix</a>
                     </Link>
                   </li>
 
@@ -32,21 +35,21 @@ const Navbar = () => {
                   {/* Dropdown link 2 */}
                   <li className='uk-*'>
                     <Link href='/matrix/trusses'>
-                      <a className='uk-text-lead' style={{ color: 'var(--bg-dark)' }}>Trusses</a>
+                      <a className='uk-text-lead' id='link'>Trusses</a>
                     </Link>
                   </li>
 
                   {/* Dropdown link 3 */}
                   <li className='uk-*'>
                     <Link href='/matrix/beams'>
-                      <a className='uk-text-lead' style={{ color: 'var(--bg-dark)' }}>Beams</a>
+                      <a className='uk-text-lead' id='link'>Beams</a>
                     </Link>
                   </li>
 
                   {/* Dropdown link 4 */}
                   <li className='uk-*'>
                     <Link href='/matrix/frames'>
-                      <a className='uk-text-lead' style={{ color: 'var(--bg-dark)' }}>Frames</a>
+                      <a className='uk-text-lead' id='link'>Frames</a>
                     </Link>
                   </li>
                 </ul>
@@ -62,7 +65,7 @@ const Navbar = () => {
                   {/* Dropdown link 1 */}
                   <li className='uk-*'>
                     <Link href='/texts'>
-                      <a className='uk-text-lead' style={{ color: 'var(--bg-dark)' }}>Charts</a>
+                      <a className='uk-text-lead' id='link'>Charts</a>
                     </Link>
                   </li>
 
@@ -71,21 +74,21 @@ const Navbar = () => {
                   {/* Dropdown link 2 */}
                   <li className='uk-*'>
                     <Link href='/texts/comparison'>
-                      <a className='uk-text-lead' style={{ color: 'var(--bg-dark)' }}>Comparison</a>
+                      <a className='uk-text-lead' id='link'>Comparison</a>
                     </Link>
                   </li>
 
                   {/* Dropdown link 3 */}
                   <li className='uk-*'>
                     <Link href='/texts/messages'>
-                      <a className='uk-text-lead' style={{ color: 'var(--bg-dark)' }}>Combined</a>
+                      <a className='uk-text-lead' id='link'>Combined</a>
                     </Link>
                   </li>
 
                   {/* Dropdown link 4 */}
                   <li className='uk-*'>
                     <Link href='/texts/stats'>
-                      <a className='uk-text-lead' style={{ color: 'var(--bg-dark)' }}>Pie charts</a>
+                      <a className='uk-text-lead' id='link'>Pie charts</a>
                     </Link>
                   </li>
                 </ul>

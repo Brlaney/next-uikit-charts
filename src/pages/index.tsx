@@ -4,7 +4,7 @@
 export default function Home () {
   return (
     <>
-      <div className='uk-heading-divider uk-margin-large-top'>
+      <div className='uk-heading-divider uk-margin-top'>
         <h1 className='uk-heading-large'>
           Welcome,
         </h1>
@@ -13,7 +13,7 @@ export default function Home () {
         </h3>
       </div>
       <div className='uk-text-center'>
-        <h1 className='uk-heading-small' style={{ color: 'var(--secondary-color)' }}>
+        <h1 className='uk-heading-small' style={{ color: '$secondary' }}>
           <span className='uk-text-lead'>designed by </span>Brendan Laney
         </h1>
       </div>
