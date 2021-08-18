@@ -1,8 +1,6 @@
 import { Bar } from 'react-chartjs-2'
 // import { data } from '@/lib/data/texts-one'
 
-// defaults.global.legend.display = false
-// defaults.global.defaultFontFamily = 'Sans-serif'
 
 const TextMessages = () => {
   return (
