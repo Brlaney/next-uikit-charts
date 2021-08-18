@@ -1,5 +1,6 @@
 import Link from 'next/link'
-import styles from '@/assets/css/Matrix.module.css'
+import styles from '@/styles/Matrix.module.scss'
+
 
 export default function Matrix () {
   return (

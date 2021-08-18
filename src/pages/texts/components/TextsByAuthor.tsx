@@ -1,4 +1,5 @@
 import { Bar } from 'react-chartjs-2'
+// import { data } from '@/lib/data/texts-two'
 
 // defaults.global.legend.display = true
 // defaults.global.defaultFontFamily = 'Sans-serif'
@@ -355,7 +356,7 @@ const TextsByAuthor = () => {
                 { x: '2021-3-21', y: 20 },
                 { x: '2021-3-22', y: 8 }
               ],
-              label: 'Combined (both)',
+              label: 'Combined (Bo and Bill)',
               borderColor: '#cecece',
               backgroundColor: '#3e405a',
             },
@@ -695,7 +696,7 @@ const TextsByAuthor = () => {
                 { x: '2021-03-21', y: 10 },
                 { x: '2021-03-22', y: 5 }
               ],
-              label: 'Brendan',
+              label: 'Bill',
               borderColor: '#cecece',
               backgroundColor: '#098702',
             },
@@ -994,7 +995,7 @@ const TextsByAuthor = () => {
                 { x: '2021-03-21', y: 10 },
                 { x: '2021-03-22', y: 3 }
               ],
-              label: 'Suzie',
+              label: 'Bill',
               borderColor: '#cecece',
               backgroundColor: '#c900e4',
             }

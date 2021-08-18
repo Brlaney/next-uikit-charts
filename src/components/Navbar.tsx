@@ -1,4 +1,4 @@
-import styles from '../assets/css/Home.module.css'
+import styles from '@/styles/Home.module.scss'
 import Link from 'next/link'
 
 const Navbar = () => {

@@ -1,6 +1,5 @@
 import Link from 'next/link'
 
-
 const TweetItem = ({ tweet }) => {
   return (
     <>

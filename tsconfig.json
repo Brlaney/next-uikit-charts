@@ -4,7 +4,7 @@
     "baseUrl": ".",
     "paths": {
       "@/components/*": ["./src/components/*"],
-      "@/assets/*": ["./src/assets/*"],
+      "@/styles/*": ["./src/scss/*"],
       "@/lib/*": ["./src/lib/*"]
     },
     "lib": ["dom", "dom.iterable", "esnext"],

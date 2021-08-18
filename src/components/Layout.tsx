@@ -1,6 +1,6 @@
 ﻿import Meta from './Meta'
 import Navbar from './Navbar'
-import styles from '../assets/css/Home.module.css'
+import styles from '@/styles/Home.module.scss'
 
 const Layout = ({ children }) => {
   return (

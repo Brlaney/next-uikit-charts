@@ -1,3 +1,5 @@
+﻿@import './theme/theme';
+
 .title {
   text-align: start;
   font-size: 80px;
@@ -5,7 +7,7 @@
 }
 
 .subheading {
-  color: var(--bg-dark);
+  color: $bg-d;
   font-size: 40px;
   margin-top: 20px;
   width: 100%;
@@ -13,7 +15,7 @@
 }
 
 .select {
-  color: var(--text-secondary);
+  color: $text-secondary;
   font-size: 28px;
   text-align: center;
 }

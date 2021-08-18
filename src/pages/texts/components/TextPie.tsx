@@ -5,6 +5,7 @@ import { Pie } from 'react-chartjs-2'
 // defaults.global.legend.position = 'bottom'
 // defaults.pie.animation.animateScale = true
 
+
 const TextPie = () => {
   return (
     <div className='uk-height-large uk-flex uk-flex-center uk-flex-middle uk-margin'>
@@ -25,8 +26,8 @@ const TextPie = () => {
             },
           ],
           labels: [
-                'Brendan',
-                'Suzie'
+                'Bo',
+                'Bill'
               ],
         }}
         height={550}
