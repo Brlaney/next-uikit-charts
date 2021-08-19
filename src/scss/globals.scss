@@ -1,35 +1,27 @@
 @import './theme/theme';
 
-// --box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.05);
-
 html,
 body {
   padding: 0;
   margin: 0;
   font-family: $primary-font;
-  color: $text-color;
+  color: $bg-d;
   overflow-y: hidden;
+  overflow-x: hidden;
 }
 
 a {
-  text-decoration: none;
+  font-family: $tertiary-font;
 }
 
 * {
   box-sizing: border-box;
-  color: inherit;
   font: inherit;
 }
 
-
-a {
-  text-decoration: none;
-  font-family: $tertiary-font;
-}
-  
 h1, h2, h3, h4, h5, h6 {
+  color: $bg-d;
   font-family: $secondary-font;
-  font-size: 60px;
 }
 
 #category {
@@ -51,12 +43,6 @@ h1, h2, h3, h4, h5, h6 {
   font-family: $secondary-font;
 }
 
-#editor {
-  font-size: 16px;
-  font-size: 1rem;
-  line-height: 1.75;
-}
-
 .uk-navbar-container {
   background: #fff !important;
   font-family: $tertiary-font;
@@ -75,20 +61,7 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--text-color);
 }
 
-
 .uk-navbar-container {
   background: $bg-dark !important;
   font-family: $tertiary-font;
-}
-
-#texts {
-  h3 {
-    color: $bg-d;
-    font-size: 2.7rem;
-    margin: 0;
-  }
-}
-
-#header {
-  color: $secondary;
 }

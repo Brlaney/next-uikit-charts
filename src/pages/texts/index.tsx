@@ -2,38 +2,66 @@ import Link from 'next/link'
 import styles from '@/styles/Texts.module.scss'
 
 
-export default function Texts () {
+export default function Texts() {
   return (
     <>
-      <div className='uk-container-large uk-height-large'>
+      {/* Page header */}
+      <div id='parent' className='uk-container-large uk-height-large'>
         <div>
-          <h1 className={styles.title}>Text message data charts</h1>
+          <h1 className={styles.title}>
+            Text message data
+          </h1>
         </div>
         <div className='uk-heading-divider uk-margin-bottom' />
-
-        <div className='uk-flex uk-flex-right uk-flex-middle'>
-          <h3 className={styles.subheading}>Select a chart</h3>
+        <div id='subheader' className='uk-flex uk-flex-middle'>
+          <h2 className={styles.subtitle}>
+            Select a sample chart
+          </h2>
         </div>
 
-        <div className='uk-margin-left uk-width-1-1'>
-          <div className='uk-margin-small'>
+        {/* Link container */}
+        <div
+          id='linkContainer'
+          className='uk-grid-row uk-grid-row-large uk-child-width-1-3 uk-text-center'
+          uk-grid
+        >
+          {/* Link 1 */}
+          <div id='card' className='uk-width-1-1'>
             <Link href='/texts/comparison'>
-              <a className={styles.select}>Comparison timeline</a>
+              <a
+                id='select'
+                className='uk-display-block uk-card uk-card-body uk-card-default uk-link-toggle uk-width-1-1'
+              >
+                <span id='text' className='uk-text-lead'>
+                  Comparison Timeline
+                </span>
+              </a>
             </Link>
           </div>
-        </div>
-        <div className='uk-margin-left uk-width-1-1'>
-          <div className='uk-margin-small'>
+          {/* Link 2 */}
+          <div id='card' className='uk-width-1-1'>
             <Link href='/texts/messages'>
-              <a className={styles.select}>Combined timeline</a>
+              <a
+                id='select'
+                className='uk-display-block uk-card uk-card-body uk-card-default uk-link-toggle uk-width-1-1'
+              >
+                <span id='text' className='uk-text-lead'>
+                  Combined Timeline
+                </span>
+              </a>
             </Link>
           </div>
-        </div>
-
-        <div className='uk-margin-left uk-width-1-1'>
-          <div className='uk-margin-small'>
+          {/* Link 3 */}
+          <div id='card' className='uk-width-1-1'>
             <Link href='/texts/stats'>
-              <a className={styles.select}>Pie chart</a>
+              <a
+                id='select'
+                className='uk-display-block uk-card uk-card-body uk-card-default uk-link-toggle uk-width-1-1'
+              >
+                <span id='text' className='uk-text-lead'>
+                  Stats Pie Chart
+                </span>
+              </a>
             </Link>
           </div>
         </div>
