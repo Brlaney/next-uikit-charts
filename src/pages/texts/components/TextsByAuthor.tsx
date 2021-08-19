@@ -1,10 +1,6 @@
 import { Bar } from 'react-chartjs-2'
 // import { data } from '@/lib/data/texts-two'
 
-// defaults.global.legend.display = true
-// defaults.global.defaultFontFamily = 'Sans-serif'
-// defaults.global.legend.position = 'bottom'
-
 const TextsByAuthor = () => {
   return (
     <div className='uk-height-large uk-flex uk-flex-center uk-flex-middle uk-margin'>
@@ -1042,7 +1038,4 @@ const TextsByAuthor = () => {
   )
 }
 
-export default TextsByAuthor;
-
-
- 
+export default TextsByAuthor

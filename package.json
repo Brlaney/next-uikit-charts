@@ -1,5 +1,6 @@
 {
-  "name": "my-site",
+  "name": "next-uikit-charts",
+  "author": "Laney, Brendan",
   "version": "0.1.0",
   "private": true,
   "scripts": {
