@@ -1,4 +1,4 @@
-﻿import TweetItem from './TweetItem'
+﻿import TweetItem from './TweetItem';
 
 
 const TweetList = ({ tweets }) => {
@@ -18,6 +18,6 @@ const TweetList = ({ tweets }) => {
       </div>
     </>
   )
-}
+};
 
-export default TweetList
+export default TweetList;

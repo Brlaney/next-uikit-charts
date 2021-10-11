@@ -1,6 +1,5 @@
 // import { server } from '../config'
 
-
 export default function Home () {
   return (
     <>
@@ -19,4 +18,4 @@ export default function Home () {
       </div>
     </>
   )
-}
+};

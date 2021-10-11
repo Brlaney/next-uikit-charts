@@ -1,6 +1,4 @@
-import { Bar } from 'react-chartjs-2'
-// import { data } from '@/lib/data/texts-one'
-
+import { Bar } from 'react-chartjs-2';
 
 const TextMessages = () => {
   return (
@@ -387,6 +385,6 @@ const TextMessages = () => {
       />
     </div>
   )
-}
+};
 
-export default TextMessages
+export default TextMessages;

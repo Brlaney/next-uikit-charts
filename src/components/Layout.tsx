@@ -1,6 +1,6 @@
-﻿import Meta from './Meta'
-import Navbar from './Navbar'
-import styles from '@/styles/Home.module.scss'
+﻿import Meta from './Meta';
+import Navbar from './Navbar';
+import styles from '@/styles/Home.module.scss';
 
 const Layout = ({ children }) => {
   return (
@@ -14,6 +14,6 @@ const Layout = ({ children }) => {
       </div>
     </>
   )
-}
+};
 
-export default Layout
+export default Layout;

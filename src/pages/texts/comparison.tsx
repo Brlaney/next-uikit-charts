@@ -1,18 +1,19 @@
-import TextsByAuthor from './components/TextsByAuthor'
-import Link from 'next/link'
-
+import TextsByAuthor from './components/TextsByAuthor';
+import Link from 'next/link';
+import styles from '@/styles/Texts.module.scss';
 
 export default function Comparison () {
   return (
     <>
-      <div className='uk-container-large' style={{ margin: '20px' }}>
+      <div id={styles.container} className='uk-container-large'>
         <h1>Comparing texts</h1>
         <Link href='/texts'>
-          <button className='uk-button-default'>back</button>
+          <button id={styles.back} className='uk-button-default'>back</button>
         </Link>
-        <div className='uk-heading-divider uk-margin-large-bottom' />
-        <TextsByAuthor />
+        <div className={styles.chartContainer}>
+          <TextsByAuthor />
+        </div>
       </div>
     </>
   )
-}
+};

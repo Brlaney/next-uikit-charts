@@ -1,6 +1,5 @@
-import { server } from '@/lib/config'
-import TweetList from './components/TweetList'
-
+import { server } from '@/lib/config';
+import TweetList from './components/TweetList';
 
 export default function Tweet ({ tweets }) {
   return (
@@ -8,7 +7,7 @@ export default function Tweet ({ tweets }) {
       <TweetList tweets={tweets} />
     </>
   )
-}
+};
 
 export const getStaticProps = async () => {
   const res = await fetch(`${server}/api/tweets`)
@@ -19,4 +18,4 @@ export const getStaticProps = async () => {
       tweets
     }
   }
-}
+};

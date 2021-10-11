@@ -1,6 +1,5 @@
-import Link from 'next/link'
-import styles from '@/styles/Matrix.module.scss'
-
+import Link from 'next/link';
+import styles from '@/styles/Matrix.module.scss';
 
 export default function Matrix () {
   return (
@@ -40,4 +39,4 @@ export default function Matrix () {
       </div>
     </>
   )
-}
+};

@@ -1,5 +1,4 @@
-﻿import Frame from './components/Frame'
-
+﻿import Frame from './components/Frame';
 
 export default function Frames () {
   return (
@@ -7,4 +6,4 @@ export default function Frames () {
       <Frame />
     </div>
   )
-}
+};

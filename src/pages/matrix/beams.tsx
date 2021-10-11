@@ -1,4 +1,4 @@
-import Beam from './components/Beam'
+import Beam from './components/Beam';
 
 
 export default function Beams () {
@@ -7,4 +7,4 @@ export default function Beams () {
       <Beam />
     </div>
   )
-}
+};

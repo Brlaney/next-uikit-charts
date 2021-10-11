@@ -1,4 +1,4 @@
-import { Line } from 'react-chartjs-2'
+import { Line } from 'react-chartjs-2';
 
 // defaults.global.tooltips.enabled = false
 // defaults.global.legend.position = 'bottom'
@@ -195,6 +195,6 @@ const Truss = () => {
       />
     </div>
   )
-}
+};
 
-export default Truss
+export default Truss;

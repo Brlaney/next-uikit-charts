@@ -1,5 +1,4 @@
-import Truss from './components/Truss'
-
+import Truss from './components/Truss';
 
 export default function Trusses () {
   return (
@@ -7,4 +6,4 @@ export default function Trusses () {
       <Truss />
     </div>
   )
-}
+};

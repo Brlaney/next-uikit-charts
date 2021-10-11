@@ -1,5 +1,5 @@
-import styles from '@/styles/Home.module.scss'
-import Link from 'next/link'
+import styles from '@/styles/Home.module.scss';
+import Link from 'next/link';
 
 const Navbar = () => {
   return (
@@ -124,6 +124,6 @@ const Navbar = () => {
       </nav>
     </>
   )
-}
+};
 
-export default Navbar
+export default Navbar;

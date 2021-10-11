@@ -1,5 +1,4 @@
-﻿import Head from 'next/head'
-
+﻿import Head from 'next/head';
 
 const Meta = ({ title, keywords, description }) => {
   return (
@@ -12,7 +11,7 @@ const Meta = ({ title, keywords, description }) => {
       <title>{title}</title>
     </Head>
   )
-}
+};
 
 Meta.defaultProps = {
   title:
@@ -21,6 +20,6 @@ Meta.defaultProps = {
     'Brendan Laney, web-development, civil engineer, website design, marketing, advertising, next js, react, dev, coding, programming',
   description:
     'A basic Next.js web application that uses UiKit for UI components and React-Charts-2/Chart.js for sleek plots and graphs.'
-}
+};
 
-export default Meta
+export default Meta;

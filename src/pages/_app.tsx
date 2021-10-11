@@ -1,11 +1,10 @@
-import * as React from 'react'
-import type { AppProps } from 'next/app'
-import { useRouter } from 'next/router'
-import Layout from '@/components/Layout'
-import 'uikit/dist/js/uikit.js'
-import 'uikit/dist/css/uikit.css'
-import '@/styles/globals.scss'
-
+import * as React from 'react';
+import type { AppProps } from 'next/app';
+import { useRouter } from 'next/router';
+import Layout from '@/components/Layout';
+import 'uikit/dist/js/uikit.js';
+import 'uikit/dist/css/uikit.css';
+import '@/styles/globals.scss';
 
 export default function MyApp(props: AppProps) {
   const { Component, pageProps } = props
@@ -18,4 +17,4 @@ export default function MyApp(props: AppProps) {
       </Layout>
     </>
   )
-}
+};

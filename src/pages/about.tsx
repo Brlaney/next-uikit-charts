@@ -1,5 +1,4 @@
-import Link from 'next/link'
-
+import Link from 'next/link';
 
 export default function about () {
   return (
@@ -18,4 +17,4 @@ export default function about () {
       </div>
     </>
   )
-}
+};

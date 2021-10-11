@@ -1,5 +1,5 @@
-import Link from 'next/link'
-import styles from '@/styles/Texts.module.scss'
+import Link from 'next/link';
+import styles from '@/styles/Texts.module.scss';
 
 
 export default function Texts() {
@@ -68,4 +68,4 @@ export default function Texts() {
       </div>
     </>
   )
-}
+};

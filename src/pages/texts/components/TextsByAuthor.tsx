@@ -1,9 +1,8 @@
-import { Bar } from 'react-chartjs-2'
-// import { data } from '@/lib/data/texts-two'
+import { Bar } from 'react-chartjs-2';
 
 const TextsByAuthor = () => {
   return (
-    <div className='uk-height-large uk-flex uk-flex-center uk-flex-middle uk-margin'>
+    <>
       <Bar
         data={{
           datasets: [
@@ -997,45 +996,45 @@ const TextsByAuthor = () => {
             }
           ]
         }}
-        height={550}
-        width={1400}
+        height={700}
+        width={1000}
         options={{
           scales: {
             xAxes: [{
-                type: 'time',
-                time: {
-                    unit: 'month'
-                }
+              type: 'time',
+              time: {
+                unit: 'month'
+              }
             }]
           },
           layout: {
             padding: {
-              left: 25,
-              right: 25,
-              top: 50,
-              bottom: 30
+              left: 15,
+              right: 15,
+              top: 15,
+              bottom: 15
             },
             margin: {
-              left: 20,
-              right: 20,
-              top: 20,
-              bottom: 30
+              left: 15,
+              right: 15,
+              top: 15,
+              bottom: 15
             },
           },
-          legend: {
-            display: true,
-            labels: {
-              fontFamily: 'Sans-serif',
-              fontColor: '#3b4750',
-              fontSize: 24,
-              padding: 30,
-              boxWidth: 60
-            }
-          },
+          // legend: {
+          //   display: true,
+          //   labels: {
+          //     fontFamily: 'Sans-serif',
+          //     fontColor: '#3b4750',
+          //     fontSize: 24,
+          //     padding: 30,
+          //     boxWidth: 60
+          //   }
+          // },
         }}
       />
-    </div>
+    </>
   )
-}
+};
 
-export default TextsByAuthor
+export default TextsByAuthor;

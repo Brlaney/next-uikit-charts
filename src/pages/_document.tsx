@@ -3,8 +3,7 @@ import Document, {
   Head,
   Main,
   NextScript
-} from 'next/document'
-
+} from 'next/document';
 export default class CustomDocument extends Document {
   render () {
     return (
@@ -17,4 +16,4 @@ export default class CustomDocument extends Document {
       </Html>
     )
   }
-}
+};

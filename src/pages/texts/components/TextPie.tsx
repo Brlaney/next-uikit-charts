@@ -1,9 +1,8 @@
-import { Pie } from 'react-chartjs-2'
-
+import { Pie } from 'react-chartjs-2';
 
 const TextPie = () => {
   return (
-    <div className='uk-height-large uk-flex uk-flex-center uk-flex-middle uk-margin'>
+    <>
       <Pie
         data={{
           datasets: [
@@ -21,25 +20,25 @@ const TextPie = () => {
             },
           ],
           labels: [
-                'Bo',
-                'Bill'
-              ],
+            'Bo',
+            'Bill'
+          ],
         }}
-        height={550}
-        width={1200}
+        height={800}
+        width={800}
         options={{
           layout: {
             padding: {
-              left: 25,
-              right: 25,
-              top: 50,
-              bottom: 35
+              left: 20,
+              right: 20,
+              top: 20,
+              bottom: 20
             },
             margin: {
               left: 20,
               right: 20,
               top: 20,
-              bottom: 30
+              bottom: 20
             },
           },
           legend: {
@@ -54,8 +53,8 @@ const TextPie = () => {
           },
         }}
       />
-    </div>
+    </>
   )
-}
+};
 
-export default TextPie
+export default TextPie;

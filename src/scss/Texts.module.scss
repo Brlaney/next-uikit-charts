@@ -1,12 +1,27 @@
 @import './theme/theme';
 
+#back:hover {
+  cursor: pointer;
+}
+
+#container {
+  .chartContainer {
+    display: flex;
+    flex-direction: column;
+    // flex: 1;
+    // width: 80%;
+    // height: 80%;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
 #parent {
   display: flex;
   flex-direction: column;
   flex: 1;
   margin: 0.66rem;
   padding: 0.22rem;
-
   div {
     .title {
       text-align: center;
@@ -14,7 +29,6 @@
       margin: 0.85rem 0 0.55rem 0;
     }
   }
-
   #subheader {
     .subtitle {
       color: $text-secondary;
@@ -32,12 +46,10 @@
     justify-content: center;
     align-items: center;
     padding: 0.99rem;
-
     #card {
       box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.05);
       width: 300px;
       color: $text-secondary;
-
       Link {
         width: 100%;
         color: $text-secondary;
@@ -47,7 +59,6 @@
           color: $text-secondary;
           font-size: 28px;
           text-align: center;
-
           #text {
             width: 100%;
             color: $text-secondary;
